@@ -1,0 +1,22 @@
+@use '../config/cores';
+
+.produto {
+    &-imagem { /* elemento */
+        width: 100%;
+    }
+    
+    &-nome { /* elemento */
+        font-size: 1.2em;
+        margin: 8px 0;
+    }
+    
+    &-descricao { /* elemento */
+        color: cores.$corText;
+    }
+}
+
+.em-destaque { /* modificador */
+    border: 2px solid cores.$corOuro;
+    padding: 8px;
+    background-color: cores.$corFundo;
+}
